@@ -1,0 +1,16 @@
+<div class="contenedor-formulario">
+  <form>
+    <label>Numero de telefono</label>
+    <input type="text" name="telefono" [(ngModel)]="recarga.telefono">
+
+    <label>Operadora</label>
+    <input type="text" name="operadora"  [(ngModel)]="recarga.operadora">
+
+    <label>Monto</label>
+    <input type="number" name="monto" [(ngModel)]="recarga.monto">
+
+    <button (click)="generarRecarga()">Generar</button>
+  </form>
+</div>
+
+<p>vista-recarga works!</p>
